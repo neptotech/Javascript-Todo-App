@@ -35,7 +35,7 @@ class item{
     	remove.innerHTML = "REMOVE";
     	remove.addEventListener('click', () => this.remove(itemBox, name));
 
-    	container+=appendChild(itemBox);
+    	container+=itemBox;
 
         itemBox.appendChild(input);
         itemBox.appendChild(edit);
