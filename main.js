@@ -84,4 +84,4 @@ for (var v = 0 ; v < todos.length ; v++){
     new item(todos[v]);
 }
 
-createItem("fot");
+new item("sport");
